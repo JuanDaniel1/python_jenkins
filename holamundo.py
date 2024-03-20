@@ -9,7 +9,7 @@ class MiManejador(BaseHTTPRequestHandler):
         self.end_headers()
         
         # Escribir el contenido de la respuesta
-        self.wfile.write(b"<html><body><h1>Hola, mundo!</h1></body></html>")
+        self.wfile.write(b"<html><body><h1>Hola mundo! Ficha 2558346</h1></body></html>")
 
 # Configurar el servidor web
 def ejecutar_servidor():
